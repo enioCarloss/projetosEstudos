@@ -1,0 +1,240 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: #f9f9f9;
+}
+
+.container {
+	width: 1360px;
+	margin: 0 auto;
+}
+
+.header ul {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	width:100%;
+	height: 160px;
+	-webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.507);
+	box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.507);
+}
+
+.header {
+	margin-top: 20px;
+}
+.menu-header li a{
+ color: #000;
+ font-weight: 500;
+ font-size: 1.5em;
+}
+.menu-header li a:hover{
+	color: rgba(0, 0, 255, 0.671);
+}
+.menu-header .carrinho-icone{
+	padding: 5px;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+
+}
+.menu-header button{
+	border: none;
+	background: none;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.pQtd-Carrinho{
+
+	width: 25px;
+	background: red;
+	color: #fff;
+	border-radius: 100%;
+	padding: 2px;
+	text-align: center;
+}
+.image-figure img {
+	width: 80px;
+}
+
+.image-figure h1 {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.produtos-frutas h2{
+	margin-top: 50px;
+	font-size: 35px;
+	
+}
+.produtos-frutas{
+   max-width: 600px;
+  
+}
+.carrinho-compras{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 100px;
+	margin-left: 50px;	
+	padding: 3px;
+	border-radius: 3px;
+	background: rgba(82, 82, 82, 0.301);
+}
+.sections{
+	display: flex;
+}
+.card-frutas{
+	width: 280px;
+	height: 340px;
+	background: #000;
+	color: #f9f9f9;
+	border-radius: 8px;
+}
+.card-frutas img{
+	width: 100%;
+	margin: 20px 0 auto;
+	border-radius: 6px;
+}
+.lista-frutas{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 28px;
+	
+}
+.img-produtos{
+	width: 180px;
+	height: 180px;
+	background: #000;
+	margin: 0 auto;
+	
+}
+.frutas-dados h3{
+	margin-top: 5px;
+	font-size: 1.5em;
+	text-align: center;
+}
+.frutas-dados p{
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-weight: 600;
+}
+.frutas-dados button{
+	padding: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	margin-left: 40px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.carrinho-compras{
+
+	overflow-y: auto;
+}
+.lista-carrinho{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.lista-carrinho button{
+	padding: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1em;
+	margin-left: 40px;
+	cursor: pointer;
+	font-weight: bold;
+}
